@@ -1,7 +1,7 @@
 import React from 'react';
 import Faker from 'faker';
 
-const ComponentDetail = ()=>{
+const ComponentDetail = (props)=>{
     return (
         <div className="comment">
         <a className="avatar">
@@ -9,7 +9,7 @@ const ComponentDetail = ()=>{
         </a>
         <div className="content">
             <a href="/" className="author">
-                sam
+                {props.author}
             </a>
             <div className="metadata">
                 <span className="date">Today at 6:00 pm</span>
