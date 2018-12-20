@@ -16,9 +16,6 @@ const App = ()=>{
         <ApprovalCard>
             <ComponentDetail author="bran" timeAgo="Yesterday at 6:00pm" content="I liked the writing!" avatar={Faker.image.avatar()}/>
         </ApprovalCard>  
-        <ApprovalCard>
-            <ComponentDetail author="bran" timeAgo="Yesterday at 6:00pm" content="I liked the writing!" avatar={Faker.image.avatar()}/>
-        </ApprovalCard>
         </div>
     )
 };
