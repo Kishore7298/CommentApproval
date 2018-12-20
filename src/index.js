@@ -6,9 +6,9 @@ import ComponentDetail from './ComponentDetail'
 const App = ()=>{
     return (
         <div className="ui container comments">
-           <ComponentDetail  author="sam"/>
-           <ComponentDetail author="will"/>
-           <ComponentDetail author="bran"/>
+           <ComponentDetail  author="sam" timeAgo="Today at 4:45pm"/>
+           <ComponentDetail author="will" timeAgo="Today at 5:00pm"/>
+           <ComponentDetail author="bran" timeAgo="Yesterday at 6:00pm"/>
         </div>
     )
 };
